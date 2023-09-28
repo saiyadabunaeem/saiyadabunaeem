@@ -1,0 +1,49 @@
+.portCon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.portItem {
+    background: var(--color-bg-varient);
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    padding: 15px;
+    position: relative;
+} 
+.portItem:hover {
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+} 
+.portImg {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    width: 100%;
+    height: 130px;
+    
+
+}
+.portItem h3 {
+    margin: 1.2rem 0 1.2rem;
+}
+.portCTA {
+    display: flex;
+    gap: 1rem;
+   
+}
+@media screen and (max-width: 1024px) {
+        .portCon {
+            grid-template-columns: 0.7fr 0.7fr;
+            
+        }
+
+
+}
+@media screen and (max-width: 600px) {
+        .portCon {
+            grid-template-columns: 0.5fr;
+            gap: 1rem;
+        }
+        }
+

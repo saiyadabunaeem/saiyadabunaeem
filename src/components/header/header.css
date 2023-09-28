@@ -1,0 +1,97 @@
+header {
+    padding-top: 5rem;
+    overflow: hidden;
+}
+.headerCon {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    
+}
+.cta {
+    margin-top: 1.5rem;
+    display: flex;
+    height: 50px;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.HeaderC {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: flex-start;
+    margin-top: 30px;
+    transition: var(--transition);
+
+}
+.HeaderC .icon:hover {
+    scale: 1.05;
+}
+.me {
+    flex: 1;
+    background: transparent;
+    width: 27rem;
+    height: 33rem;
+    margin-top: 4rem;
+    border-radius: 10rem 10rem 0 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.ac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+.mcdf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.ac h1 {
+    line-height: 3rem;
+}
+/*.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}*/
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 923px) {
+
+    .headerCon h1 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .cta a {
+       font-size: 15px;
+    }
+    header {
+        
+        padding-top: 3rem;
+        overflow: hidden;
+    }
+    .headerCon {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+}
+.me {
+    
+    width: 23rem;
+    height: 27rem;
+}
+}
