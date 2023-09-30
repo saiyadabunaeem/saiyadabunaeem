@@ -43,7 +43,7 @@ const Port = () => {
           <h3>GPT-3</h3>
           <div className="portCTA">
             <a href='https://github.com/saiyadabunaeem' className='btn'>Github</a>
-          <a href='https://saiyadabunaeem.github.io/gpt3' className='btn btn-primary'>Live Demo</a>
+          <a href='https://saiyadabunaeem.github.io/gptnew' className='btn btn-primary'>Live Demo</a>
           </div>
           
         </article>

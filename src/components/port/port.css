@@ -1,6 +1,6 @@
 .portCon {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2.5rem;
 }
 .portItem {
@@ -21,8 +21,14 @@
     overflow: hidden;
     width: 100%;
     height: 130px;
+   
     
 
+}
+.portImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .portItem h3 {
     margin: 1.2rem 0 1.2rem;
@@ -32,18 +38,4 @@
     gap: 1rem;
    
 }
-@media screen and (max-width: 1024px) {
-        .portCon {
-            grid-template-columns: 0.7fr 0.7fr;
-            
-        }
-
-
-}
-@media screen and (max-width: 600px) {
-        .portCon {
-            grid-template-columns: 0.5fr;
-            gap: 1rem;
-        }
-        }
 
