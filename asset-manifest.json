@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/saiyadabunaeem/static/css/main.f8c47035.css",
-    "main.js": "/saiyadabunaeem/static/js/main.0bfb2571.js",
-    "static/media/disney.png": "/saiyadabunaeem/static/media/disney.80041e1d0425ce0c1a91.png",
+    "main.css": "/saiyadabunaeem/static/css/main.55c66516.css",
+    "main.js": "/saiyadabunaeem/static/js/main.76c221ba.js",
     "static/media/cv.pdf": "/saiyadabunaeem/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/disney.png": "/saiyadabunaeem/static/media/disney.ccf7da3f1d082d0bf946.png",
     "static/media/portfolio5.png": "/saiyadabunaeem/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/saiyadabunaeem/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/saiyadabunaeem/static/media/portfolio6.72d1107e313049cf15a7.jpg",
@@ -12,11 +12,11 @@
     "static/media/portfolio4.jpg": "/saiyadabunaeem/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "static/media/me-about.jpg": "/saiyadabunaeem/static/media/me-about.afc7c8c57c76e80fae93.jpg",
     "index.html": "/saiyadabunaeem/index.html",
-    "main.f8c47035.css.map": "/saiyadabunaeem/static/css/main.f8c47035.css.map",
-    "main.0bfb2571.js.map": "/saiyadabunaeem/static/js/main.0bfb2571.js.map"
+    "main.55c66516.css.map": "/saiyadabunaeem/static/css/main.55c66516.css.map",
+    "main.76c221ba.js.map": "/saiyadabunaeem/static/js/main.76c221ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8c47035.css",
-    "static/js/main.0bfb2571.js"
+    "static/css/main.55c66516.css",
+    "static/js/main.76c221ba.js"
   ]
 }
